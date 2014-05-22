@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".New_Game" >
+
+    <RadioGroup
+        android:id="@+id/rbgGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEquipos"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/txtEquipos" >
+
+        <RadioButton
+            android:id="@+id/rbEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:checked="true"
+            android:text="@string/easy"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/medium"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbDifficult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/difficult"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtEquipos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#778899"
+        android:text="@string/title"
+        android:textColor="#D3D3D3"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_toRightOf="@+id/txtEquipos"
+        android:background="@drawable/button"
+        android:text="@string/start_game"
+        android:textColor="#000000"
+        android:width="150dp" />
+
+</RelativeLayout>

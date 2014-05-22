@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/it_new_game" android:title="@string/new_game"></item>
+    <item android:id="@+id/it_scores" android:title="@string/scores"></item>
+    <item android:id="@+id/it_about" android:title="@string/about"></item>
+    <item android:id="@+id/it_configuration" android:title="@string/configuration"></item><item android:id="@+id/it_exit" android:title="@string/exit"></item>
+</menu>

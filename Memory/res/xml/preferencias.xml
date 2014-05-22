@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="preferencias">
+    
+	<CheckBoxPreference 
+	    android:key="musica"
+	    android:title="Reproducir música"
+	    android:summary="Se reproduce música al iniciar el juego"
+	    android:defaultValue="true"/>
+	
+	<ListPreference 
+	    android:key="imagenes"
+	    android:title="Elige tipo de imágenes"
+	    android:summary="Se elige el tipo de imágenes para el juego"
+	    android:entries="@array/tipos_imagenes"
+	    android:entryValues="@array/tipos_imagenes_valores"
+	    android:defaultValue="1"/>
+</PreferenceScreen>

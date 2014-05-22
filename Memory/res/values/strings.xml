@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memory</string>
+    <string name="new_game">Nuevo juego</string>
+    <string name="about">Acerca de</string>
+    <string name="scores">Puntuación</string>
+    <string name="exit">Salir</string>
+    <string name="title_activity_new__game">Nuevo juego</string>
+    <string name="title">Memory</string>
+    <string name="start_game">Iniciar Juego</string>
+    <string name="easy">Fácil</string>
+    <string name="medium">Medio</string>
+    <string name="difficult">Difícil</string>
+    <string name="title_activity_easy">Fácil</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_scores">Puntuación</string>
+    <string name="title_activity_medium">Medio</string>
+    <string name="title_activity_difficult">Difícil</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="about_text">Memory es un juego que requiere gran habilidad mental o capacidad intelectual.
+Para comenzar el juego, diferentes imágenes boca abajo sobre una tabla colocada, entonces lucha, cada jugador debe poner dos tarjetas
+frente turnadamente al azar, si las dos cartas tienen la misma cifra que el jugador tome esas dos cartas que conseguirás
+puntos y puede repetir automáticamente el giro.</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <string name="title_activity_resultados">Resultados</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_insertar">Insertar</string>
+    <string name="name">Introduce tu nombre</string>
+    <string name="insert">Insertar</string>
+    <string name="difficulty">Dificultad</string>
+    <string name="name1">Nombre</string>
+    <string name="time">Tiempo</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+    <string name="configuration">Configuración</string>
+
+</resources>

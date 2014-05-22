@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simarro.memory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.simarro.memory.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.simarro.memory.New_Game"
+            android:label="@string/title_activity_new__game"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Easy"
+            android:label="@string/title_activity_easy"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Scores"
+            android:label="@string/title_activity_scores"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Medium"
+            android:label="@string/title_activity_medium"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Difficult"
+            android:label="@string/title_activity_difficult"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.About"
+            android:label="@string/title_activity_about"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Prueba"
+            android:label="@string/title_activity_prueba"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Resultados"
+            android:label="@string/title_activity_resultados"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Insertar"
+            android:label="@string/title_activity_insertar"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="com.simarro.memory.Preferencias"
+            android:label="@string/title_activity_preferencias"
+             android:noHistory="true" >
+        </activity>
+    </application>
+
+</manifest>
